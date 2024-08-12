@@ -106,4 +106,8 @@ echo "<h2>Constantes</h2>";
 echo "Constante PI: " . PI . "<br>";
 echo "Valor máximo de entero: " . PHP_INT_MAX . "<br>";
 echo "Valor mínimo de entero: " . PHP_INT_MIN . "<br>";
-?>
+// Botón para recargar la página
+echo "<h2>Botón de Redirección</h2>";
+echo '<form method="get" action="number.php">';
+echo '<input type="submit" value="Ir a number.php">';
+echo '</form>';;
