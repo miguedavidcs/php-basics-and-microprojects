@@ -93,3 +93,22 @@ echo "<p><b>Redondeo hacia arriba de \$d:</b> " . ceil($d) . "</p>"; // Imprime 
 
 echo "</div>";
 
+$numero = 12345.6789;
+$fecha = new DateTime();
+$nombre = "Miguel";
+$edad = 28;
+
+// Formateo de número
+$numeroFormateado = number_format($numero, 2, ',', '.');
+
+// Formateo de fecha
+$fechaFormateada = $fecha->format('d/m/Y H:i:s');
+
+// Formateo de texto
+$texto = sprintf("Hola, mi nombre es %s y tengo %d años. Hoy es %s y el número formateado es %s.", $nombre, $edad, $fechaFormateada, $numeroFormateado);
+
+echo "<h2>Ejemplo de Formateo Combinado</h2>";
+echo "<p>" . $texto . "</p>";
+
+
+
