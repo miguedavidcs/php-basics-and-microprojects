@@ -56,7 +56,7 @@ Este documento detalla el plan de curso para aprender PHP, incluyendo conceptos 
 - Definición y llamada de funciones
 - Parámetros y valores de retorno
 - Funciones anónimas y `lambda`
-- [Documentación](05-functions/index.php)
+- [Documentación](21-functions/index.php)
 
 ## 11. Comments
 - Uso de comentarios en PHP
