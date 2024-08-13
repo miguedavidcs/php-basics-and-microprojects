@@ -48,14 +48,13 @@ echo "Saludo con Espacios Eliminados: '" . trim($saludo_espacios) . "'<br>";
 // 10. Mostrar el nombre con un formato específico
 $nombre_formateado = sprintf("Nombre: %s", $name);
 echo $nombre_formateado . "<br>";
-function sumar($a, $b, $c) {
-    return $a + $b + $c;
-}
-
-$numeros = [1, 2, 3];
-
-// Usando el operador spread para pasar el array como argumentos
-echo sumar(...$numeros); // Salida: 6
-
-
-
+// para rutas 
+$url = "Localhost\\HomeController\\4\\index";
+$urlcorrecta = str_replace("\\", "/", $url);
+echo "{$urlcorrecta}";
+$urlseparada = explode("/", $urlcorrecta);
+echo "<br>";
+echo $urlseparada[0]."<br>";
+echo $urlseparada[1]."<br>";
+echo $urlseparada[2]."<br>";
+echo $urlseparada[3]."<br>";
